@@ -1,0 +1,17 @@
+/*Stylesheet for index.html*/
+
+body{
+	background-color: #f9e933;
+}
+
+header{
+	background-color: white;
+}
+
+main{
+	background-color: white;
+}
+
+header, main, footer{
+	min-width: 855px;
+}
