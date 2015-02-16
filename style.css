@@ -27,7 +27,8 @@ header h1{
 
 header nav{
 	float: right;
-	width: 285px;
+	width: 250px;
+	margin-top:30px;
 }
 
 main{
@@ -54,6 +55,11 @@ footer{
 	width: 570px;
 }
 
+.contact > p{
+	margin: 0px;
+	padding: 0px;
+}
+
 .sitemap{
 	float: right;
 	width: 285px;
@@ -69,6 +75,8 @@ footer{
 
 h1, h2, h3, h4, h5, h6{
 	font-family: "Ubuntu", sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 h1{
@@ -93,4 +101,31 @@ h5{
 
 h6{
 	font-size: 0.5em;
+}
+
+p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.amazerifficName{
+	color: #b64c4c;
+	font-style: italic;
+}
+
+#reasonHeader{
+	margin-top: 33px;
+}
+
+.reason{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+img{
+	width: 75%;
+	height: 75%;
+	margin: 33px;
 }
