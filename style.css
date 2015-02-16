@@ -2,6 +2,7 @@
 
 body{
 	background-color: #f9e933;
+	font-family: "Droid Sans", sans-serif;
 }
 
 header, main, footer{
@@ -63,4 +64,8 @@ footer{
 
 .subRight{
 	float: right;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Ubuntu", sans-serif;
 }
