@@ -108,6 +108,22 @@ p{
 	margin-bottom: 5px;
 }
 
+a{
+	text-decoration: none;
+	color: red;
+}
+
+/*Underline links when mouse is over them*/
+a:hover{
+	text-decoration: underline;
+}
+
+/*Change color of links that were previously visited*/
+a:visited{
+	color: purple;
+}
+
+/*Italicize and color "Amazeriffic!"*/
 .amazerifficName{
 	color: #b64c4c;
 	font-style: italic;
