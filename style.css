@@ -30,5 +30,16 @@ header nav{
 
 main{
 	background-color: white;
+	overflow: auto;
+}
+
+.mainContentLeft{
+	float: left;
+	width: 570px;
+}
+
+.mainContentRight{
+	float: right;
+	width: 285px;
 }
 
