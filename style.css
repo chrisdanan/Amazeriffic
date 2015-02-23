@@ -1,4 +1,4 @@
-	/*Stylesheet for index.html*/
+/*Stylesheet for index.html*/
 
 body{
 	background-color: #f9e933;
@@ -8,12 +8,15 @@ body{
 
 header, main, footer{
 	min-width: 855px;
+	overflow: auto;
 }
 
 /*Allow header, main, and footer sections to be moved*/
 header .container, main .container, footer .container{
 	max-width: 855px;
 	margin: auto;
+	overflow: auto;
+	/*border: 1px dashed red;*/
 }
 
 header{
