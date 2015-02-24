@@ -15,13 +15,13 @@ header, main, footer{
 header .container, main .container, footer .container{
 	max-width: 855px;
 	margin: auto;
-	overflow: auto;
+	/*overflow: auto;*/
 	/*border: 1px dashed red;*/
 }
 
 header{
 	background-color: white;
-	overflow: auto;
+	/*overflow: auto;*/
 }
 
 header h1{
@@ -83,6 +83,7 @@ footer{
 
 h1, h2, h3, h4, h5, h6{
 	font-family: "Ubuntu", sans-serif;
+	font-weight: bold;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
